@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		829179DF17BEC8800080C48D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829179DE17BEC8800080C48D /* UIKit.framework */; };
+		829179E117BEC8800080C48D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829179E017BEC8800080C48D /* Foundation.framework */; };
+		829179E317BEC8800080C48D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829179E217BEC8800080C48D /* CoreGraphics.framework */; };
+		829179E917BEC8800080C48D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 829179E717BEC8800080C48D /* InfoPlist.strings */; };
+		829179EB17BEC8800080C48D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 829179EA17BEC8800080C48D /* main.m */; };
+		829179EF17BEC8800080C48D /* BSFOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 829179EE17BEC8800080C48D /* BSFOAppDelegate.m */; };
+		829179F117BEC8800080C48D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 829179F017BEC8800080C48D /* Default.png */; };
+		829179F317BEC8800080C48D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 829179F217BEC8800080C48D /* Default@2x.png */; };
+		829179F517BEC8800080C48D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 829179F417BEC8800080C48D /* Default-568h@2x.png */; };
+		829179F817BEC8800080C48D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 829179F617BEC8800080C48D /* MainStoryboard.storyboard */; };
+		829179FB17BEC8800080C48D /* BSFOFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829179FA17BEC8800080C48D /* BSFOFirstViewController.m */; };
+		829179FD17BEC8800080C48D /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 829179FC17BEC8800080C48D /* first.png */; };
+		829179FF17BEC8800080C48D /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 829179FE17BEC8800080C48D /* first@2x.png */; };
+		82917A0217BEC8800080C48D /* BSFOSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82917A0117BEC8800080C48D /* BSFOSecondViewController.m */; };
+		82917A0417BEC8800080C48D /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 82917A0317BEC8800080C48D /* second.png */; };
+		82917A0617BEC8800080C48D /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82917A0517BEC8800080C48D /* second@2x.png */; };
+		82917A0E17BEC8810080C48D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82917A0D17BEC8810080C48D /* SenTestingKit.framework */; };
+		82917A0F17BEC8810080C48D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829179DE17BEC8800080C48D /* UIKit.framework */; };
+		82917A1017BEC8810080C48D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829179E017BEC8800080C48D /* Foundation.framework */; };
+		82917A1817BEC8810080C48D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82917A1617BEC8810080C48D /* InfoPlist.strings */; };
+		82917A1B17BEC8810080C48D /* BarnehageSFOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82917A1A17BEC8810080C48D /* BarnehageSFOTests.m */; };
+		82917A2617BECE780080C48D /* BSFOChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 82917A2517BECE780080C48D /* BSFOChild.m */; };
+		82917A2917BECF350080C48D /* BSFOGuardian.m in Sources */ = {isa = PBXBuildFile; fileRef = 82917A2817BECF350080C48D /* BSFOGuardian.m */; };
+		82917A2C17BECFDE0080C48D /* BSFOAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 82917A2B17BECFDE0080C48D /* BSFOAddress.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82917A1117BEC8810080C48D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 829179D317BEC8800080C48D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 829179DA17BEC8800080C48D;
+			remoteInfo = BarnehageSFO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		829179DB17BEC8800080C48D /* BarnehageSFO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarnehageSFO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		829179DE17BEC8800080C48D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		829179E017BEC8800080C48D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		829179E217BEC8800080C48D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		829179E617BEC8800080C48D /* BarnehageSFO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BarnehageSFO-Info.plist"; sourceTree = "<group>"; };
+		829179E817BEC8800080C48D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		829179EA17BEC8800080C48D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		829179EC17BEC8800080C48D /* BarnehageSFO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BarnehageSFO-Prefix.pch"; sourceTree = "<group>"; };
+		829179ED17BEC8800080C48D /* BSFOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSFOAppDelegate.h; sourceTree = "<group>"; };
+		829179EE17BEC8800080C48D /* BSFOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSFOAppDelegate.m; sourceTree = "<group>"; };
+		829179F017BEC8800080C48D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		829179F217BEC8800080C48D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		829179F417BEC8800080C48D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		829179F717BEC8800080C48D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		829179F917BEC8800080C48D /* BSFOFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSFOFirstViewController.h; sourceTree = "<group>"; };
+		829179FA17BEC8800080C48D /* BSFOFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSFOFirstViewController.m; sourceTree = "<group>"; };
+		829179FC17BEC8800080C48D /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		829179FE17BEC8800080C48D /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		82917A0017BEC8800080C48D /* BSFOSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSFOSecondViewController.h; sourceTree = "<group>"; };
+		82917A0117BEC8800080C48D /* BSFOSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSFOSecondViewController.m; sourceTree = "<group>"; };
+		82917A0317BEC8800080C48D /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		82917A0517BEC8800080C48D /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		82917A0C17BEC8810080C48D /* BarnehageSFOTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarnehageSFOTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82917A0D17BEC8810080C48D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		82917A1517BEC8810080C48D /* BarnehageSFOTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BarnehageSFOTests-Info.plist"; sourceTree = "<group>"; };
+		82917A1717BEC8810080C48D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82917A1917BEC8810080C48D /* BarnehageSFOTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarnehageSFOTests.h; sourceTree = "<group>"; };
+		82917A1A17BEC8810080C48D /* BarnehageSFOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarnehageSFOTests.m; sourceTree = "<group>"; };
+		82917A2417BECE780080C48D /* BSFOChild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSFOChild.h; sourceTree = "<group>"; };
+		82917A2517BECE780080C48D /* BSFOChild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSFOChild.m; sourceTree = "<group>"; };
+		82917A2717BECF350080C48D /* BSFOGuardian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSFOGuardian.h; sourceTree = "<group>"; };
+		82917A2817BECF350080C48D /* BSFOGuardian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSFOGuardian.m; sourceTree = "<group>"; };
+		82917A2A17BECFDE0080C48D /* BSFOAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSFOAddress.h; sourceTree = "<group>"; };
+		82917A2B17BECFDE0080C48D /* BSFOAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSFOAddress.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		829179D817BEC8800080C48D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829179DF17BEC8800080C48D /* UIKit.framework in Frameworks */,
+				829179E117BEC8800080C48D /* Foundation.framework in Frameworks */,
+				829179E317BEC8800080C48D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82917A0817BEC8810080C48D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82917A0E17BEC8810080C48D /* SenTestingKit.framework in Frameworks */,
+				82917A0F17BEC8810080C48D /* UIKit.framework in Frameworks */,
+				82917A1017BEC8810080C48D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		829179D217BEC8800080C48D = {
+			isa = PBXGroup;
+			children = (
+				829179E417BEC8800080C48D /* BarnehageSFO */,
+				82917A1317BEC8810080C48D /* BarnehageSFOTests */,
+				829179DD17BEC8800080C48D /* Frameworks */,
+				829179DC17BEC8800080C48D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		829179DC17BEC8800080C48D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				829179DB17BEC8800080C48D /* BarnehageSFO.app */,
+				82917A0C17BEC8810080C48D /* BarnehageSFOTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		829179DD17BEC8800080C48D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				829179DE17BEC8800080C48D /* UIKit.framework */,
+				829179E017BEC8800080C48D /* Foundation.framework */,
+				829179E217BEC8800080C48D /* CoreGraphics.framework */,
+				82917A0D17BEC8810080C48D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		829179E417BEC8800080C48D /* BarnehageSFO */ = {
+			isa = PBXGroup;
+			children = (
+				82917A2D17BECFEC0080C48D /* dom */,
+				829179ED17BEC8800080C48D /* BSFOAppDelegate.h */,
+				829179EE17BEC8800080C48D /* BSFOAppDelegate.m */,
+				829179F617BEC8800080C48D /* MainStoryboard.storyboard */,
+				829179F917BEC8800080C48D /* BSFOFirstViewController.h */,
+				829179FA17BEC8800080C48D /* BSFOFirstViewController.m */,
+				829179FC17BEC8800080C48D /* first.png */,
+				829179FE17BEC8800080C48D /* first@2x.png */,
+				82917A0017BEC8800080C48D /* BSFOSecondViewController.h */,
+				82917A0117BEC8800080C48D /* BSFOSecondViewController.m */,
+				82917A0317BEC8800080C48D /* second.png */,
+				82917A0517BEC8800080C48D /* second@2x.png */,
+				829179E517BEC8800080C48D /* Supporting Files */,
+			);
+			path = BarnehageSFO;
+			sourceTree = "<group>";
+		};
+		829179E517BEC8800080C48D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				829179E617BEC8800080C48D /* BarnehageSFO-Info.plist */,
+				829179E717BEC8800080C48D /* InfoPlist.strings */,
+				829179EA17BEC8800080C48D /* main.m */,
+				829179EC17BEC8800080C48D /* BarnehageSFO-Prefix.pch */,
+				829179F017BEC8800080C48D /* Default.png */,
+				829179F217BEC8800080C48D /* Default@2x.png */,
+				829179F417BEC8800080C48D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82917A1317BEC8810080C48D /* BarnehageSFOTests */ = {
+			isa = PBXGroup;
+			children = (
+				82917A1917BEC8810080C48D /* BarnehageSFOTests.h */,
+				82917A1A17BEC8810080C48D /* BarnehageSFOTests.m */,
+				82917A1417BEC8810080C48D /* Supporting Files */,
+			);
+			path = BarnehageSFOTests;
+			sourceTree = "<group>";
+		};
+		82917A1417BEC8810080C48D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82917A1517BEC8810080C48D /* BarnehageSFOTests-Info.plist */,
+				82917A1617BEC8810080C48D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82917A2D17BECFEC0080C48D /* dom */ = {
+			isa = PBXGroup;
+			children = (
+				82917A2417BECE780080C48D /* BSFOChild.h */,
+				82917A2517BECE780080C48D /* BSFOChild.m */,
+				82917A2717BECF350080C48D /* BSFOGuardian.h */,
+				82917A2817BECF350080C48D /* BSFOGuardian.m */,
+				82917A2A17BECFDE0080C48D /* BSFOAddress.h */,
+				82917A2B17BECFDE0080C48D /* BSFOAddress.m */,
+			);
+			name = dom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		829179DA17BEC8800080C48D /* BarnehageSFO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82917A1E17BEC8810080C48D /* Build configuration list for PBXNativeTarget "BarnehageSFO" */;
+			buildPhases = (
+				829179D717BEC8800080C48D /* Sources */,
+				829179D817BEC8800080C48D /* Frameworks */,
+				829179D917BEC8800080C48D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarnehageSFO;
+			productName = BarnehageSFO;
+			productReference = 829179DB17BEC8800080C48D /* BarnehageSFO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82917A0B17BEC8810080C48D /* BarnehageSFOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82917A2117BEC8810080C48D /* Build configuration list for PBXNativeTarget "BarnehageSFOTests" */;
+			buildPhases = (
+				82917A0717BEC8810080C48D /* Sources */,
+				82917A0817BEC8810080C48D /* Frameworks */,
+				82917A0917BEC8810080C48D /* Resources */,
+				82917A0A17BEC8810080C48D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82917A1217BEC8810080C48D /* PBXTargetDependency */,
+			);
+			name = BarnehageSFOTests;
+			productName = BarnehageSFOTests;
+			productReference = 82917A0C17BEC8810080C48D /* BarnehageSFOTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		829179D317BEC8800080C48D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BSFO;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jens Kristoffer Reitan Markussen";
+			};
+			buildConfigurationList = 829179D617BEC8800080C48D /* Build configuration list for PBXProject "BarnehageSFO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 829179D217BEC8800080C48D;
+			productRefGroup = 829179DC17BEC8800080C48D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				829179DA17BEC8800080C48D /* BarnehageSFO */,
+				82917A0B17BEC8810080C48D /* BarnehageSFOTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		829179D917BEC8800080C48D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829179E917BEC8800080C48D /* InfoPlist.strings in Resources */,
+				829179F117BEC8800080C48D /* Default.png in Resources */,
+				829179F317BEC8800080C48D /* Default@2x.png in Resources */,
+				829179F517BEC8800080C48D /* Default-568h@2x.png in Resources */,
+				829179F817BEC8800080C48D /* MainStoryboard.storyboard in Resources */,
+				829179FD17BEC8800080C48D /* first.png in Resources */,
+				829179FF17BEC8800080C48D /* first@2x.png in Resources */,
+				82917A0417BEC8800080C48D /* second.png in Resources */,
+				82917A0617BEC8800080C48D /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82917A0917BEC8810080C48D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82917A1817BEC8810080C48D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82917A0A17BEC8810080C48D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		829179D717BEC8800080C48D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829179EB17BEC8800080C48D /* main.m in Sources */,
+				829179EF17BEC8800080C48D /* BSFOAppDelegate.m in Sources */,
+				829179FB17BEC8800080C48D /* BSFOFirstViewController.m in Sources */,
+				82917A0217BEC8800080C48D /* BSFOSecondViewController.m in Sources */,
+				82917A2617BECE780080C48D /* BSFOChild.m in Sources */,
+				82917A2917BECF350080C48D /* BSFOGuardian.m in Sources */,
+				82917A2C17BECFDE0080C48D /* BSFOAddress.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82917A0717BEC8810080C48D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82917A1B17BEC8810080C48D /* BarnehageSFOTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82917A1217BEC8810080C48D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 829179DA17BEC8800080C48D /* BarnehageSFO */;
+			targetProxy = 82917A1117BEC8810080C48D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		829179E717BEC8800080C48D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				829179E817BEC8800080C48D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		829179F617BEC8800080C48D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				829179F717BEC8800080C48D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		82917A1617BEC8810080C48D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82917A1717BEC8810080C48D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82917A1C17BEC8810080C48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		82917A1D17BEC8810080C48D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82917A1F17BEC8810080C48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarnehageSFO/BarnehageSFO-Prefix.pch";
+				INFOPLIST_FILE = "BarnehageSFO/BarnehageSFO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82917A2017BEC8810080C48D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarnehageSFO/BarnehageSFO-Prefix.pch";
+				INFOPLIST_FILE = "BarnehageSFO/BarnehageSFO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		82917A2217BEC8810080C48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BarnehageSFO.app/BarnehageSFO";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarnehageSFO/BarnehageSFO-Prefix.pch";
+				INFOPLIST_FILE = "BarnehageSFOTests/BarnehageSFOTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		82917A2317BEC8810080C48D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BarnehageSFO.app/BarnehageSFO";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BarnehageSFO/BarnehageSFO-Prefix.pch";
+				INFOPLIST_FILE = "BarnehageSFOTests/BarnehageSFOTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		829179D617BEC8800080C48D /* Build configuration list for PBXProject "BarnehageSFO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82917A1C17BEC8810080C48D /* Debug */,
+				82917A1D17BEC8810080C48D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82917A1E17BEC8810080C48D /* Build configuration list for PBXNativeTarget "BarnehageSFO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82917A1F17BEC8810080C48D /* Debug */,
+				82917A2017BEC8810080C48D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82917A2117BEC8810080C48D /* Build configuration list for PBXNativeTarget "BarnehageSFOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82917A2217BEC8810080C48D /* Debug */,
+				82917A2317BEC8810080C48D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 829179D317BEC8800080C48D /* Project object */;
+}

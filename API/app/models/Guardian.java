@@ -3,11 +3,12 @@ package models;
 import javax.persistence.*;
 import javax.validation.constraints.Digits;
 
+import org.codehaus.jackson.JsonNode;
+import play.data.format.Formats;
 import play.db.ebean.*;
 import play.data.validation.*;
 
-import java.util.List;
-
+@Entity
 public class Guardian extends Model{
 
     @Id
@@ -17,13 +18,24 @@ public class Guardian extends Model{
     public String name;
 
     @Constraints.Required
-    @Digits(integer = 8, fraction = 0)
+    @Formats.NonEmpty
     public Integer phone;
 
     @Constraints.Required
     @OneToOne
     public Address address;
 
-    @ManyToMany
-    public List<Child> children;
+    public static Guardian create(JsonNode root){
+        if(root == null){
+            throw new NullPointerException("Failed to read JSON root");
+        }
+
+        Guardian guardian = new Guardian();
+        guardian.name = root.get("name").asText();
+        guardian.phone = root.get("phone").asInt();
+        guardian.address = Address.create(root.get("address"));
+
+        guardian.save();
+        return guardian;
+    }
 }

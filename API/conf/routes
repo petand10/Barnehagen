@@ -3,13 +3,13 @@
 # ~~~~
 
 # Routes for accessing and modifying children data
-GET     /children/                  controllers.ChildrenController.get()
-GET     /children/:id               controllers.ChildrenController.getChild(id:Long)
-GET     /children/latest/:time         controllers.ChildrenController.getLatest(time:Long)
+GET     /children/                  controllers.ChildrenController.retrieveAll()
+GET     /children/:id               controllers.ChildrenController.retrieve(id:Long)
+GET     /children/new/:time         controllers.ChildrenController.retrieveSince(time:Long)
 GET     /children/find/:name        controllers.ChildrenController.find(name)
-POST    /children/                  controllers.ChildrenController.create()
-POST    /children/:id/update        controllers.ChildrenController.update(id:Long)
-POST    /children/:id/delete        controllers.ChildrenController.delete(id:Long)
+POST    /children/                  controllers.ChildrenController.persist()
+PUT     /children/:id               controllers.ChildrenController.update(id:Long)
+DELETE  /children/:id               controllers.ChildrenController.delete(id:Long)
 
 
 # Map static resources from the /public folder to the /assets URL path

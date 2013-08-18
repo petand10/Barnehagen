@@ -10,13 +10,13 @@ REST API update
 	Returns all childern                
 * 	GET     /children/:id   
 	Returns a single child with spesificed ID           
-* 	GET     /children/new/:time
+* 	GET     /children/new/:time 
 	Returns all childern added or changed since time         
 * 	GET     /children/find/:name 
 	Returns all children matching name      
-* 	POST    /children/
+* 	POST    /children/ 
 	Persists new child from JSON object in HTTP data content                 
-* 	PUT     /children/:id
+* 	PUT     /children/:id 
 	Updates child with id from JSON object in HTTP data content            
 * 	DELETE  /children/:id 
 	Deletes child with id
